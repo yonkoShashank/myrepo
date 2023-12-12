@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            table,tr,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 20%;
+        }
+        .tablestyle
+        {
+            background-color: lime;
+        }
+        .tablestyle2
+        {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Grouping Rows Together Method 1 using <b>tbody</b></caption>
+        <tr style="background-color: mediumaquamarine;">
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td>col5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tbody style="background-color: goldenrod;">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table>
+        <caption>Grouping Rows Together Method 2 using <b>tr</b></caption>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td>col5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr style="background-color: orangered;">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr style="background-color: aquamarine;">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <caption>Grouping Rows Together Method 3 using <b>classes</b></caption>
+        <tr class="tablestyle">
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td>col5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr class="tablestyle">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr class="tablestyle2">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+</html>
